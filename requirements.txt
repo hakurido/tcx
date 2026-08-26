@@ -1,0 +1,4 @@
+# The only dependency. 3.4.8 is what Ubuntu 22.04 ships, and tcx supports it
+# deliberately: an agent pinned to a distro package should not need an upgrade
+# in order to sign.
+cryptography>=3.4.8

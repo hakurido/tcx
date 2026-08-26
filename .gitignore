@@ -1,0 +1,17 @@
+# Never commit an identity or a passphrase. The key file is the only proof you
+# hold the DID and there is no recovery, so keep it outside the repo entirely.
+identity.pem
+*.pem
+*.key
+passphrase*
+.env
+
+.venv
+.venv-*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+.DS_Store
